@@ -1,0 +1,105 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header .first-header {
+  background-color: #B61D29;
+  padding: 0px 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+header .top-header {
+  background-color: #B61D29;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+header .top-header p {
+  font-size: 16px;
+  font-family: "Source Sans 3", sans-serif;
+  text-align: center;
+  padding-top: 10px;
+}
+header .top-header a {
+  text-decoration: none;
+  color: white;
+  font-family: "Source Sans 3", sans-serif;
+  padding-top: 10px;
+}
+header .second-header .middle-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header .second-header .middle-header .logo img {
+  width: 180px;
+}
+header .second-header .middle-header .links ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+header .second-header .middle-header .links ul li {
+  font-size: 12px;
+}
+header .second-header .middle-header .links ul li i {
+  color: #B61D29;
+}
+header .second-header .middle-header .links ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+header .bottom-header .container {
+  display: flex;
+  justify-content: space-between;
+}
+header .bottom-header .container .logo img {
+  width: 70px;
+  border-radius: 5px;
+}
+header .bottom-header .container ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+header .bottom-header .container ul li a {
+  font-size: 10px;
+  color: #2E3131;
+  text-decoration: none;
+}
+
+main {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+#hero-section .first-section {
+  display: flex;
+  justify-content: space-between;
+}
+#hero-section .first-section .image {
+  padding-right: 400px;
+}
+#hero-section .first-section .image img {
+  width: 288px;
+}
+#hero-section .first-section .information {
+  padding-top: 70px;
+}
+#hero-section .first-section .information h2 {
+  padding: 0 0 40px;
+  font-size: 30px;
+  font-weight: bold;
+}
+#hero-section .link a {
+  text-decoration: none;
+  background-color: #F45369;
+  color: #fff;
+  line-height: 38px;
+  padding: 15px 56px;
+  font-size: 15px;
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */
